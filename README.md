@@ -1,1 +1,1 @@
-react_project
+아이보리 메인 모듈

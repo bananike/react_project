@@ -284,6 +284,11 @@ html {
                 transform-origin: center;
                 transform: scale(1.3);
             }
+            @media (max-width: 767px) {
+                img {
+                    transform: scale(1);
+                }
+            }
         }
         &-logo {
             max-width: 150px;

@@ -1,0 +1,28 @@
+.font_noto {
+    font-family: $f_noto !important;
+}
+.font_ibm {
+    font-family: $f_ibm !important;
+}
+strong {
+    color: $c_secondary;
+    &.tertiary {
+        color: $c_tertiary;
+    }
+}
+.btn {
+    background-color: $c_secondary;
+    color: $c_white;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    &-secondary-dark {
+        background-color: $c_secondarydark !important;
+    }
+    &:hover {
+        color: $c_tertiary;
+    }
+    svg {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,42 @@
+// base size
+$nav_size: 60px;
+$resolution_45p: 45%;
+$resolution_16_9: 56.26%;
+$resolution_8_13: 150%;
+$resolution_banner: 29.636%;
+$resolution_1: 98.03%;
+
+// font
+$f_noto: 'Noto Sans KR', sans-serif;
+$f_ibm: 'IBM Plex Sans KR', sans-serif;
+
+// color
+
+$c_white: #ffffff;
+$c_dark: #333333;
+$c_primary: #55d3c3;
+$c_primarylight: #54c4b7;
+$c_primarydark: #29746b81;
+$c_secondary: #466377;
+$c_secondarydark: #253d4d;
+$c_tertiary: #f0ddbd;
+$c_bg: #bfb5a426;
+
+$popup_back: rgba(255, 255, 255, 0.1);
+$blur: blur(30px);
+
+// mixin
+@mixin hide {
+    max-width: 0 !important;
+    min-width: 0 !important;
+    max-height: 0 !important;
+    min-height: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
+}

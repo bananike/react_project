@@ -9,6 +9,7 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
     return (
         <>
             <section className="section section-top">
+                <div className="bg"></div>
                 <Container>
                     <div className="row">
                         <div className="col-md-5">
@@ -161,6 +162,7 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
             </section>
 
             <section className="section bg_second pattern-01 img-over">
+                <div className="bg"></div>
                 <Container>
                     <div className="row">
                         <div className="col-md-5">

@@ -144,3 +144,20 @@
         transform: translateY(-12px) rotate(-45deg);
     }
 }
+
+@keyframes slide-left {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1500px;
+    }
+}
+@keyframes slide-right {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -1500px;
+    }
+}

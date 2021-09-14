@@ -14,8 +14,8 @@ const routes = [
     { path: '/main', exact: true, Component: Main, menuTitle: '아이보리' },
     { path: '/bebecam', exact: true, Component: BebeCam, menuTitle: '베베캠' },
     { path: '/carecenter', exact: true, Component: CareCenter, menuTitle: '산후조리원' },
-    { path: '/ivoryview', exact: true, Component: IvoryView, menuTitle: '아이보리뷰' },
-    { path: '/ivorymall', exact: true, Component: IvoryMall, menuTitle: '아이보리몰' },
+    { path: '/ivoryview', exact: true, Component: IvoryView, menuTitle: '아이보리뷰' },
+    { path: '/ivorymall', exact: true, Component: IvoryMall, menuTitle: '아이보리몰' },
     { path: '/contact', exact: true, Component: Contact, menuTitle: 'CONTACT' },
 ];
 

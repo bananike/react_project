@@ -62,6 +62,7 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
                     </div>
                 </Container>
             </section>
+
             <section className="section bg-white">
                 <Container>
                     <div className="row">
@@ -158,7 +159,8 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
                     </div>
                 </Container>
             </section>
-            <section className="section bg_second pattern-01">
+
+            <section className="section bg_second pattern-01 img-over">
                 <Container>
                     <div className="row">
                         <div className="col-md-5">
@@ -191,6 +193,135 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
                         </div>
                     </div>
                 </Container>
+            </section>
+
+            <section className="section bg-white">
+                <Container>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="section-textbox">
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </Scroll>
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ducimus, hic cum accusantium assumenda, earum et optio atque laborum dolore quod. Aperiam
+                                        repellendus beatae sed obcaecati quisquam molestias soluta fugit?
+                                    </p>
+                                </Scroll>
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, facere aperiam expedita commodi modi maxime quos vitae suscipit inventore autem cumque
+                                        dignissimos. Sint mollitia ipsam quos ut, officia aperiam id.
+                                    </p>
+                                </Scroll>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="section no-bottom">
+                <Container>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="section-textbox center">
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </Scroll>
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia?</p>
+                                </Scroll>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+                <div className="phone-effect">
+                    <div className="effect-item-wrap">
+                        <div className="line line-top">
+                            <Scroll animateIn="animate__bounceIn" delay={100}>
+                                <div className="effect-item effect-item-1">
+                                    <div className="square">
+                                        <div className="inner">
+                                            <img src="/img/temp/temp01.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Scroll>
+                            <Scroll animateIn="animate__bounceIn" delay={200}>
+                                <div className="effect-item effect-item-2">
+                                    <div className="square">
+                                        <div className="inner">
+                                            <img src="/img/temp/temp02.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Scroll>
+                        </div>
+                        <div className="line line-bottom">
+                            <Scroll animateIn="animate__bounceIn" delay={300}>
+                                <div className="effect-item effect-item-3">
+                                    <div className="square">
+                                        <div className="inner">
+                                            <img src="/img/temp/temp03.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Scroll>
+                            <Scroll animateIn="animate__bounceIn" delay={400}>
+                                <div className="effect-item effect-item-4">
+                                    <div className="square">
+                                        <div className="inner">
+                                            <img src="/img/temp/temp04.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </Scroll>
+                        </div>
+                    </div>
+                    <div className="back-wrap">
+                        <img src="/img/phone.png" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <section className="section bg_second">
+                <Container>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="section-textbox center">
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </Scroll>
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia?</p>
+                                </Scroll>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </section>
+
+            <section className="section bg_white no-side">
+                <Container>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="section-textbox center">
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                </Scroll>
+                                <Scroll animateIn="animate__fadeInUp">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quia?</p>
+                                </Scroll>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+
+                <div className="slide-effect">
+                    <div className="slide-item slide-item-01"></div>
+                    <div className="slide-item slide-item-02"></div>
+                </div>
             </section>
         </>
     );

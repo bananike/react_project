@@ -33,9 +33,9 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
                         </div>
                         <div className="col-md-7">
                             <div className="section-imgbox">
-                                <Scroll animateIn="animate__slideInRight">
-                                    <img src="/img/section-img-01.png" alt="섹션 이미지" />
-                                </Scroll>
+                                {/* <Scroll animateIn="animate__fadeInUp"> */}
+                                <img src="/img/section-img-01.png" alt="섹션 이미지" />
+                                {/* </Scroll> */}
                             </div>
                         </div>
                     </div>
@@ -186,9 +186,9 @@ const Presenter = memo(({ onClickMore, onClickYoutube }) => {
                         </div>
                         <div className="col-md-7">
                             <div className="section-imgbox">
-                                <Scroll animateIn="animate__slideInRight">
-                                    <img src="/img/section-img-02.png" alt="섹션 이미지" style={{ marginTop: '-25%', marginBottom: '-40%' }} />
-                                </Scroll>
+                                {/* <Scroll animateIn="animate__fadeInUp"> */}
+                                <img src="/img/section-img-02.png" alt="섹션 이미지" style={{ marginTop: '-25%', marginBottom: '-40%' }} />
+                                {/* </Scroll> */}
                             </div>
                         </div>
                     </div>
